@@ -1,1 +1,1 @@
-a small library app from the odin project
+a small library app task(project) the odin project
