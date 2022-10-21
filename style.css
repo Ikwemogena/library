@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+html{
+    background-color: antiquewhite;
+}
+
+body{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#erase{
+    background-color: orange;
+    color: yellowgreen;
+
+}
+
+
+
+form{
+    background-color: red;
+}
+
+.hidden{
+    display: none;
+}

@@ -9,6 +9,25 @@
     <script src="script.js" defer></script>
 </head>
 <body>
-    
+    <header></header>
+    <div id="erase">
+        <h1>Hi, Welcome To The LIBRARY</h1>
+        <button id="show-add">Add New Book</button>
+        <button>Remove Book</button>
+    </div>
+    <div class="popup" >
+        <form action="./script.js" class="show hidden" id="myPopup"  >
+            <h3>New Book</h3>
+            <input type="text" placeholder="Title" required><br>
+            <input type="text" placeholder="Author" required><br>
+            <input type="number" placeholder="Pages" required><br>
+
+            <label for="read">Read</label>
+            <input type="checkbox" name="read" id="isRead" placeholder="Read"><br>
+
+            <button>Add Book</button>
+        </form>
+    </div>
+    <!-- <footer>build by Ikwmeogena with love</footer> -->
 </body>
 </html>
